@@ -1,0 +1,48 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+*.temp
+
+# Stata artifacts
+*.log
+*.smcl
+*.ster
+
+# Python/cache artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Proprietary inputs and outputs
+*.dta
+*.csv
+*.xls
+*.xlsx
+*.xlsm
+*.sas7bdat
+*.sas
+*.zip
+*.partial
+
+# Notes and supporting documents not intended for publication
+*.pdf
+*.docx
+*.msg
+*.jpg
+
+# Original archived workspace folders retained locally but excluded from the public repo
+Databases/
+Do-files/
+Literature/
+Notes/
+
+# Public repo content
+!README.md
+!docs/
+!docs/**
+!stata/
+!stata/**
