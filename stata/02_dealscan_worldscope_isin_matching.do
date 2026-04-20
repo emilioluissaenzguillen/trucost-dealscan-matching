@@ -1,6 +1,5 @@
 * ============================================================
 * Carbon Emissions Bank Lending. Matching Trucost to Dealscan
-* Christian Eufinger, Yuki Sakasai, Igor Kadach, Emilio Sáenz
 * Author: Emilio Luis Sáenz Guillén
 * Date: November, 2021
 * ============================================================
@@ -26,15 +25,15 @@ cd "$output"
 use "$input/Trucost/trucost_2021.dta", clear
 drop dup
 rename company name
-drop if name=="StarPoint Energy Trust" // Yuki: Trucost data is available for StarPoint Energy Trust only for 2005 and 2006, so I would NOT include this in the matched sample.
+drop if name=="StarPoint Energy Trust" // Trucost data is available for StarPoint Energy Trust only for 2005 and 2006, so I would not include this in the matched sample.
 unique isin // 17,864 unique isins 
 save "$output/temp/trucost_2021_1", replace	
 	
 
 ** 2. DEALSCAN_WORLDSCOPE_LINKING_TABLE **
 
-// A) First of all, for the observations where isin is missing, add some gvkeys and some extra isins to dealscan_worldscope_linking_table (Yuki's table')
-	import excel "$input/Linking Tables/Yuki_dealscan_linking_table_ISIN_missing.xlsx", sheet("Cleaned_Table") firstrow clear
+// A) First of all, for the observations where isin is missing, add some gvkeys and some extra isins from the supplementary missing-ISIN review table
+	import excel "$input/Linking Tables/supplemental_dealscan_linking_table_isin_missing.xlsx", sheet("Cleaned_Table") firstrow clear
 
 	drop if missing(isin) & missing(gvkey)
 
@@ -42,9 +41,9 @@ save "$output/temp/trucost_2021_1", replace
 
 	use "$input/Linking Tables/dealscan_linking_table/dealscan_worldscope_linking_table", clear 
 	
-	replace isin="GB00BWFY5505" if company=="NIELSEN MEDIA RESEARCH" // Yuki: This company is now a private subsidiary of Nielsen Holdings plc (GB00BWFY5505). Trucost data is available for this entity and I would match it with this.
+	replace isin="GB00BWFY5505" if company=="NIELSEN MEDIA RESEARCH" // This company is now a private subsidiary of Nielsen Holdings plc (GB00BWFY5505). Trucost data is available for this entity, so I match it to that identifier.
 	unique isin // 16,343 unique isins (16,342 not counting the missings)
-	count if missing(isin) // 808 missing isins that we try to fill using Yuki's table
+	count if missing(isin) // 808 missing isins that we try to fill using the supplementary review table
 
 	// add gvkey and some extra isins
 	merge m:1 companyID cleaned_matched_name using "$output/temp/dealscan_linking_table_ISIN_missing", keepusing(isin gvkey) update	

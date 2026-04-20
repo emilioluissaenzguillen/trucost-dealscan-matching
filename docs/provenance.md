@@ -6,7 +6,7 @@ This repository is a public-safe reconstruction of a collaborative research work
 
 ## Origin Of The Material
 
-- The archived scripts in the original workspace include file headers naming Christian Eufinger, Yuki Sakasai, Igor Kadach, and Emilio Saenz.
+- The archived scripts in the original workspace include mixed authorship and collaboration markers from the broader IESE RA workflow.
 - The code reflects collaborative research-assistant work carried out at IESE.
 - The original folder contained both code and non-public materials such as vendor data extracts, manually enriched spreadsheets, emails, notes, and literature files.
 
@@ -22,8 +22,8 @@ This repository is a public-safe reconstruction of a collaborative research work
 Several parts of the underlying workflow were clearly collaborative in the source material:
 
 - The borrower-side matching starts from a pre-existing `dealscan_worldscope_linking_table`.
-- The scripts explicitly reference `Yuki_dealscan_linking_table_ISIN_missing.xlsx` as a supplementary matching file used to fill missing ISINs and GVKEYs.
-- Comments throughout the matching scripts attribute some entity-level judgments and corrections to Yuki.
+- The scripts reference a supplementary missing-ISIN matching file used to fill missing ISINs and GVKEYs.
+- Comments in the archived workspace reflect inherited entity-level judgments and review steps beyond the public sample shown here.
 - The lender-side matching also relies on external linking tables such as Schwert (2020), which were then extended through additional CUSIP-based matching and by-hand review.
 
 ## Safe Public Interpretation
@@ -37,7 +37,7 @@ The fairest public interpretation is:
 ## What Is Deliberately Omitted
 
 - DealScan, Trucost, Capital IQ, and other proprietary raw datasets.
-- Intermediate `.dta`, `.xlsx`, `.csv`, and other generated outputs.
+- Most intermediate `.dta`, `.xlsx`, `.csv`, and other generated outputs.
 - Emails, notes, screenshots, and literature files from the original workspace.
 - Some manual working spreadsheets referenced by the scripts.
 

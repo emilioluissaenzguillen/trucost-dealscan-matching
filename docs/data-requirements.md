@@ -69,7 +69,7 @@ Safe reference file:
 
 Expected location in the original workflow:
 
-- `Databases/input/Linking Tables/Yuki_dealscan_linking_table_ISIN_missing.xlsx`
+- `Databases/input/Linking Tables/supplemental_dealscan_linking_table_isin_missing.xlsx`
 
 Core fields used by the matching scripts:
 

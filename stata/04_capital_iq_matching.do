@@ -1,6 +1,5 @@
 * ============================================================ 
 * Carbon Emissions Bank Lending. Matching Trucost to Dealscan  
-* Christian Eufinger, Yuki Sakasai, Igor Kadach, Emilio Sáenz  
 * Author: Emilio Luis Sáenz Guillén							   	
 * Date: November, 2021										   	
 * ============================================================ 

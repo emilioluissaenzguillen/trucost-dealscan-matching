@@ -1,6 +1,5 @@
 * ============================================================
 * Carbon Emissions Bank Lending. Matching Trucost to Dealscan
-* Christian Eufinger, Yuki Sakasai, Igor Kadach, Emilio Sáenz
 * Author: Emilio Luis Sáenz Guillén
 * Date: November, 2021
 * ============================================================
@@ -136,7 +135,7 @@ quietly by Lender_Id gvkey_ultparent: gen dup = cond(_N==1,0,_n)
 drop if dup>1
 drop dup
 
-// Yuki's CIQ ID corrections
+// Manual CIQ ID corrections
 replace ciqid_ultparent="IQ198119" if Lender_Name=="Pacific Life Insurance Co"
 replace ciqid_ultparent="IQ741165" if Lender_Name=="TCW Group Inc"
 replace ciqid_ultparent="IQ111588627" if Lender_Name=="Caisse Nationale des Caisses d'Epargne et de Prevoyance [CNCEP)"
@@ -228,7 +227,7 @@ table comptype_ultparent
 use "$output/Identifiers - Final", clear
 
 /*
-DNB Bank ASA (old entity, IQ621956) bought another bank in July 2021 and they appear to have set up a combined bank as new entity (IQ9778651) in the form of new bank (with the same name) absorbing the old bank. Therefore “OLD” entity is labelled as private. Economically speaking they are the same and we should treat them accordingly. We just use IQ9778651to retrieve historical ownership data (and by the moment the file provided by Yuki already present in hard copies folder)
+DNB Bank ASA (old entity, IQ621956) bought another bank in July 2021 and they appear to have set up a combined bank as new entity (IQ9778651) in the form of a new bank with the same name absorbing the old bank. Therefore the old entity is labelled as private. Economically speaking they are the same and we should treat them accordingly. We just use IQ9778651 to retrieve historical ownership data.
 */
 replace comptype_ultparent="Public Company" if ciqid_ultparent=="IQ621956"
 
