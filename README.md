@@ -39,11 +39,13 @@ More detail is in [docs/provenance.md](/C:/Users/emili/Dropbox/IESE/Carbon%20Emi
 
 To make the repo more useful, it includes:
 
-- public or shareable linking tables such as the Chava-Roberts, Schwert, and Jan Keil inputs,
+- public or shareable linking tables such as the Chava-Roberts, Schwert, and Keil RSSD inputs,
 - the authored `dealscan_worldscope_linking_table.dta` used in the borrower-side matching scripts,
 - and selected final outputs such as `Identifiers - Final` and the lender-side Schwert match outputs.
 
 That means readers can inspect real matching artifacts instead of only mock schemas, even though the licensed raw vendor inputs are still excluded.
+
+External references for the main public link resources are collected in [docs/public-data.md](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/docs/public-data.md).
 
 ## Important Limitations
 

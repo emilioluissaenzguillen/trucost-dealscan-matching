@@ -19,6 +19,15 @@ This public repo now includes a narrow set of safe data assets under `Databases/
 - `Databases/output/Dealscan_tcst_cpst Tables/output_ds(new)/temp/matches_schwert.dta`
 - `Databases/output/Dealscan_tcst_cpst Tables/output_ds(new)/temp/ds_lender_link_schwert_compustat_bankscope_1.dta`
 
+## External Links
+
+- Chava-Roberts paper: [SSRN abstract](https://ssrn.com/abstract=854324)
+- Chava-Roberts journal DOI: [Journal of Finance article](https://doi.org/10.1111/j.1540-6261.2008.01391.x)
+- Schwert paper: [SSRN abstract](https://ssrn.com/abstract=2690490)
+- Schwert journal record: [EconPapers entry](https://econpapers.repec.org/article/blajfinan/v_3a73_3ay_3a2018_3ai_3a2_3ap_3a787-830.htm)
+- Keil RSSD-DealScan data page: [Jan Keil data site](https://sites.google.com/site/drjankeil/data)
+- DealScan-Worldscope documentation: [WRDS linking page](https://wrds-www.wharton.upenn.edu/pages/wrds-research/database-linking-matrix/linking-thomson-refinitiv-with-thomson-refinitiv/)
+
 ## Why These Files
 
 The included files are the safe part of the workflow that adds the most value for a public repository:
@@ -38,7 +47,7 @@ If you reuse the public external linking tables, cite the original source papers
 - `Chava_roberts_ds_cs_link_April_2018_post.xlsx` corresponds to the DealScan-Compustat borrower link associated with Chava and Roberts, "How Does Financing Impact Investment? The Role of Debt Covenants," *Journal of Finance* (2008), and distributed through WRDS as the Roberts DealScan-Compustat Linking Database.
 - `Dealscan_Lender_Link_Schwert_2020.xlsx` is the lender-side DealScan link commonly cited in the literature as the Schwert link table, described in Michael Schwert, "Bank Capital and Lending Relationships."
 - `dealscan_worldscope_linking_table.dta` belongs to the DealScan-Worldscope borrower-link workflow documented by WRDS, which recommends citing the related Beyhaghi, Dai, Saunders, and Wald work on international lending.
-- `rssd_lenderid.csv` and `rssd_ultimateparentid.csv` come from Jan Keil's RSSD-DealScan Database Linking Table, posted on his data page and referenced there as first presented in "Do Relationship Lenders Manage Loans Differently?"
+- `rssd_lenderid.csv` and `rssd_ultimateparentid.csv` are the Keil RSSD-DealScan linking tables posted on Jan Keil's data page and referenced there as first presented in "Do Relationship Lenders Manage Loans Differently?"
 
 ## What Is Still Missing For Full Reproduction
 
