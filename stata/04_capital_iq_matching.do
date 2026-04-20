@@ -1,8 +1,9 @@
-* ============================================================ 
-* Carbon Emissions Bank Lending. Matching Trucost to Dealscan  
-* Author: Emilio Luis Sáenz Guillén							   	
-* Date: November, 2021										   	
-* ============================================================ 
+* ============================================================
+* Carbon Emissions Bank Lending. Matching Trucost to Dealscan
+* Christian Eufinger, Yuki Sakasai, Igor Kadach, Emilio Sáenz
+* Author: Emilio Luis Sáenz Guillén							   
+* Date: November, 2021  
+* ============================================================
 
 clear all
 set more off
