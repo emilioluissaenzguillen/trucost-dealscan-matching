@@ -2,7 +2,7 @@
 
 ## Purpose Of This Public Repo
 
-This repository is a public-safe reconstruction of a collaborative research workspace. Its purpose is to document the technical workflow and the matching logic without publishing proprietary inputs or overstating individual ownership.
+This repository is a confidentiality-aware public sample drawn from a collaborative research workspace. Its purpose is to document the technical workflow and matching logic without publishing proprietary inputs, private working materials, or overstating individual ownership.
 
 ## Origin Of The Material
 
@@ -15,7 +15,8 @@ This repository is a public-safe reconstruction of a collaborative research work
 - A selected set of Stata scripts from `trucost_dealscan_cp_matching`.
 - Only the public-facing copies of scripts whose headers identify Emilio Luis Saenz Guillen as author.
 - Documentation explaining the pipeline, limits, and attribution.
-- No raw vendor data, generated output files, or private notes.
+- A small set of safe linking tables and selected matching outputs that help make the workflow interpretable.
+- No raw vendor data, private notes, emails, or broader internal working materials.
 
 ## Collaboration-Sensitive Elements
 
@@ -30,9 +31,9 @@ Several parts of the underlying workflow were clearly collaborative in the sourc
 
 The fairest public interpretation is:
 
-- This repo demonstrates original authored implementation work on identifier reconciliation, matching-table extension, merge design, and workflow reconstruction.
+- This repo demonstrates implementation work on identifier reconciliation, matching-table extension, merge design, and workflow reconstruction within a collaborative RA setting.
 - It does not claim that every source table or entity-level decision used by the workflow originated with one person alone.
-- It preserves enough context to show the engineering problem and the solution approach while remaining honest about collaboration.
+- It preserves enough context to show the engineering problem and solution approach while remaining careful about collaboration and confidentiality.
 
 ## What Is Deliberately Omitted
 
@@ -46,5 +47,5 @@ The fairest public interpretation is:
 Treat the repo as:
 
 - a skills-focused archive of a real matching pipeline,
-- a public-facing reconstruction of collaborative research-support work,
+- a public-facing sample of collaborative research-support work,
 - and a documentation layer over a non-public empirical data process.
