@@ -18,7 +18,7 @@ The curated scripts in this repo illustrate how the matching workflow:
 
 This repository highlights the part of the project I worked on most directly: the matching pipeline in `trucost_dealscan_cp_matching`. The curated scripts are the ones that best reflect the technical problems I handled most closely, including identifier reconciliation, multi-source entity matching, and merge consolidation.
 
-More detail is in [docs/provenance.md](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/docs/provenance.md) and [docs/my-contribution.md](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/docs/my-contribution.md).
+More detail is in [docs/provenance.md](docs/provenance.md) and [docs/my-contribution.md](docs/my-contribution.md).
 
 ## Repository Layout
 
@@ -45,7 +45,7 @@ To make the repo more useful, it includes:
 
 That means readers can inspect real matching artifacts instead of only mock schemas, even though the licensed raw vendor inputs and broader internal working materials are still excluded.
 
-External references for the main public link resources are collected in [docs/public-data.md](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/docs/public-data.md).
+External references for the main public link resources are collected in [docs/public-data.md](docs/public-data.md).
 
 ## Important Limitations
 
@@ -55,4 +55,4 @@ External references for the main public link resources are collected in [docs/pu
 - Some matching decisions reflect collaboration context and inherited input tables from the broader research workflow.
 - This is a confidentiality-aware workflow sample, not a fully reproducible replication package.
 
-More detail is in [docs/workflow.md](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/docs/workflow.md), [docs/data-requirements.md](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/docs/data-requirements.md), [docs/public-data.md](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/docs/public-data.md), and [docs/manual-review.md](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/docs/manual-review.md).
+More detail is in [docs/workflow.md](docs/workflow.md), [docs/data-requirements.md](docs/data-requirements.md), [docs/public-data.md](docs/public-data.md), and [docs/manual-review.md](docs/manual-review.md).

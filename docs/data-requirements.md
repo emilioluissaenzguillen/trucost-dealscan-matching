@@ -38,7 +38,7 @@ Core fields used by the matching scripts:
 
 Safe reference file:
 
-- [templates/trucost_2021_mock.csv](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/templates/trucost_2021_mock.csv)
+- [templates/trucost_2021_mock.csv](../templates/trucost_2021_mock.csv)
 
 ### DealScan-Worldscope linking input
 
@@ -63,7 +63,7 @@ Included in repo:
 
 Safe reference file:
 
-- [templates/dealscan_worldscope_linking_table_mock.csv](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/templates/dealscan_worldscope_linking_table_mock.csv)
+- [templates/dealscan_worldscope_linking_table_mock.csv](../templates/dealscan_worldscope_linking_table_mock.csv)
 
 ### Supplemental missing-ISIN review file
 
@@ -80,7 +80,7 @@ Core fields used by the matching scripts:
 
 Safe reference file:
 
-- [templates/dealscan_linking_table_isin_missing_template.csv](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/templates/dealscan_linking_table_isin_missing_template.csv)
+- [templates/dealscan_linking_table_isin_missing_template.csv](../templates/dealscan_linking_table_isin_missing_template.csv)
 
 ### DealScan identifier translation tables
 
@@ -97,8 +97,8 @@ Core fields used by the matching scripts:
 
 Safe reference files:
 
-- [templates/wrds_to_loanconnector_ids_mock.csv](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/templates/wrds_to_loanconnector_ids_mock.csv)
-- [templates/lpc_loanconnector_company_id_mappings_mock.csv](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/templates/lpc_loanconnector_company_id_mappings_mock.csv)
+- [templates/wrds_to_loanconnector_ids_mock.csv](../templates/wrds_to_loanconnector_ids_mock.csv)
+- [templates/lpc_loanconnector_company_id_mappings_mock.csv](../templates/lpc_loanconnector_company_id_mappings_mock.csv)
 
 ### Review files produced and re-imported
 
@@ -106,11 +106,11 @@ Several scripts export candidate matches to Excel, expect manual review, and the
 
 Safe reference files:
 
-- [templates/trucost_2021_isins_enriched_template.csv](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/templates/trucost_2021_isins_enriched_template.csv)
-- [templates/dealscan_worldscope_isins_enriched_template.csv](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/templates/dealscan_worldscope_isins_enriched_template.csv)
-- [templates/chava_roberts_matches_review_template.csv](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/templates/chava_roberts_matches_review_template.csv)
-- [templates/ds_trucost_compustat_review_template.csv](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/templates/ds_trucost_compustat_review_template.csv)
-- [templates/identifiers_review_template.csv](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/templates/identifiers_review_template.csv)
+- [templates/trucost_2021_isins_enriched_template.csv](../templates/trucost_2021_isins_enriched_template.csv)
+- [templates/dealscan_worldscope_isins_enriched_template.csv](../templates/dealscan_worldscope_isins_enriched_template.csv)
+- [templates/chava_roberts_matches_review_template.csv](../templates/chava_roberts_matches_review_template.csv)
+- [templates/ds_trucost_compustat_review_template.csv](../templates/ds_trucost_compustat_review_template.csv)
+- [templates/identifiers_review_template.csv](../templates/identifiers_review_template.csv)
 
 ## Why Templates Instead Of Real Samples
 
