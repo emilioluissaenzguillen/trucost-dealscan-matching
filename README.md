@@ -14,9 +14,9 @@ The curated scripts in this repo illustrate how the matching workflow:
 4. Integrates Capital IQ identifiers.
 5. Consolidates the new and old matching outputs into a final identifier layer.
 
-## Why This Scope
+## Focus
 
-The broader project was collaborative, but the scripts included here are limited to matching files whose source headers identify `Author: Emilio Luis Saenz Guillen`. That makes this repo a cleaner public-facing sample of original authored work while staying honest about the wider project context.
+This repository highlights the part of the project where I did the most original implementation work: the matching pipeline in `trucost_dealscan_cp_matching`. The curated scripts are the ones that best reflect the technical problems I worked on most directly, including identifier reconciliation, multi-source entity matching, and merge consolidation.
 
 More detail is in [docs/provenance.md](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/docs/provenance.md) and [docs/my-contribution.md](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/docs/my-contribution.md).
 
