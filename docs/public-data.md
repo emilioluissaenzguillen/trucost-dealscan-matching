@@ -21,11 +21,11 @@ This public repo now includes a narrow set of safe data assets under `Databases/
 
 ## External Links
 
-- Chava-Roberts paper: [SSRN abstract](https://ssrn.com/abstract=854324)
-- Chava-Roberts journal DOI: [Journal of Finance article](https://doi.org/10.1111/j.1540-6261.2008.01391.x)
-- Schwert paper: [SSRN abstract](https://ssrn.com/abstract=2690490)
-- Schwert journal record: [EconPapers entry](https://econpapers.repec.org/article/blajfinan/v_3a73_3ay_3a2018_3ai_3a2_3ap_3a787-830.htm)
-- Keil RSSD-DealScan data page: [Jan Keil data site](https://sites.google.com/site/drjankeil/data)
+- Sudheer Chava and Michael R. Roberts paper: [SSRN abstract](https://ssrn.com/abstract=854324)
+- Sudheer Chava and Michael R. Roberts journal DOI: [Journal of Finance article](https://doi.org/10.1111/j.1540-6261.2008.01391.x)
+- Michael Schwert paper: [SSRN abstract](https://ssrn.com/abstract=2690490)
+- Michael Schwert journal record: [EconPapers entry](https://econpapers.repec.org/article/blajfinan/v_3a73_3ay_3a2018_3ai_3a2_3ap_3a787-830.htm)
+- Jan Keil RSSD-DealScan data page: [Jan Keil data site](https://sites.google.com/site/drjankeil/data)
 - DealScan-Worldscope documentation: [WRDS linking page](https://wrds-www.wharton.upenn.edu/pages/wrds-research/database-linking-matrix/linking-thomson-refinitiv-with-thomson-refinitiv/)
 
 ## Why These Files
@@ -44,8 +44,8 @@ If you reuse the public external linking tables, cite the original source papers
 
 ## Source Notes
 
-- `Chava_roberts_ds_cs_link_April_2018_post.xlsx` corresponds to the DealScan-Compustat borrower link associated with Chava and Roberts, "How Does Financing Impact Investment? The Role of Debt Covenants," *Journal of Finance* (2008), and distributed through WRDS as the Roberts DealScan-Compustat Linking Database.
-- `Dealscan_Lender_Link_Schwert_2020.xlsx` is the lender-side DealScan link commonly cited in the literature as the Schwert link table, described in Michael Schwert, "Bank Capital and Lending Relationships."
+- `Chava_roberts_ds_cs_link_April_2018_post.xlsx` corresponds to the DealScan-Compustat borrower link associated with Sudheer Chava and Michael R. Roberts, "How Does Financing Impact Investment? The Role of Debt Covenants," *Journal of Finance* (2008), and distributed through WRDS as the Roberts DealScan-Compustat Linking Database.
+- `Dealscan_Lender_Link_Schwert_2020.xlsx` is the lender-side DealScan link commonly cited in the literature as the Michael Schwert link table, described in Michael Schwert, "Bank Capital and Lending Relationships."
 - `dealscan_worldscope_linking_table.dta` belongs to the DealScan-Worldscope borrower-link workflow documented by WRDS, which recommends citing the related Beyhaghi, Dai, Saunders, and Wald work on international lending.
 - `rssd_lenderid.csv` and `rssd_ultimateparentid.csv` are the Keil RSSD-DealScan linking tables posted on Jan Keil's data page and referenced there as first presented in "Do Relationship Lenders Manage Loans Differently?"
 

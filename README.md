@@ -39,7 +39,7 @@ More detail is in [docs/provenance.md](/C:/Users/emili/Dropbox/IESE/Carbon%20Emi
 
 To make the repo more useful, it includes:
 
-- public or shareable linking tables such as the Chava-Roberts, Schwert, and Keil RSSD inputs,
+- public or shareable linking tables such as the Sudheer Chava-Michael R. Roberts borrower link, the Michael Schwert lender link, and the Jan Keil RSSD inputs,
 - the authored `dealscan_worldscope_linking_table.dta` used in the borrower-side matching scripts,
 - and selected final outputs such as `Identifiers - Final` and the lender-side Schwert match outputs.
 
