@@ -1,0 +1,3 @@
+lenderid,lender,gvkey_ultparent,comp_start,comp_end,conm,ciqid_ultparent,ciqname_ultparent,review_note
+700001,Northshore Bank,100001,2010-01-01,2021-09-30,Northshore Bank Holdings,IQMOCK0001,Northshore Bank Holdings,confirm parent mapping
+700002,Atlas Commercial Bank,100002,2012-01-01,2021-09-30,Atlas Financial Group,IQMOCK0002,Atlas Financial Group,review merger timing

@@ -7,7 +7,15 @@
 
 clear all
 set more off
-global main "C:/Users/addj700/Dropbox/Carbon Emissions Bank Lending"
+local __pwd = subinstr(`"`c(pwd)'"', "\", "/", .)
+capture confirm global cebl_root
+if _rc {
+	global cebl_root `"`__pwd'"'
+}
+if length("$cebl_root")>=6 & substr("$cebl_root", length("$cebl_root")-5, 6)=="/stata" {
+	global cebl_root = substr("$cebl_root", 1, length("$cebl_root")-6)
+}
+global main "$cebl_root"
 global input "$main/Databases/input"
 global output "$main/Databases/output/Dealscan_tcst_cpst Tables/output_ds(new)"
 cd "$output"
@@ -518,6 +526,4 @@ gen lenderid = companyID // in order to do the merges
 order companyID company borrowercompanyid borrower lenderid lender cusip sedol isin sic
 
 save "$output/temp/trucost_dealscan_worldscope_linking_table", replace
-
-
 

@@ -46,3 +46,36 @@ Notes/
 !docs/**
 !stata/
 !stata/**
+!templates/
+!templates/**
+
+# Selected safe data assets included for the public repo
+!Databases/
+Databases/*
+!Databases/input/
+Databases/input/*
+!Databases/input/Linking Tables/
+Databases/input/Linking Tables/*
+!Databases/input/Linking Tables/Chava_roberts_ds_cs_link_April_2018_post.xlsx
+!Databases/input/Linking Tables/Dealscan_Lender_Link_Schwert_2020.xlsx
+!Databases/input/Linking Tables/dealscan_linking_table/
+Databases/input/Linking Tables/dealscan_linking_table/*
+!Databases/input/Linking Tables/dealscan_linking_table/dealscan_worldscope_linking_table.dta
+!Databases/input/Linking Tables/Jan Keil/
+Databases/input/Linking Tables/Jan Keil/*
+!Databases/input/Linking Tables/Jan Keil/rssd_lenderid.csv
+!Databases/input/Linking Tables/Jan Keil/rssd_ultimateparentid.csv
+!Databases/output/
+Databases/output/*
+!Databases/output/Dealscan_tcst_cpst Tables/
+Databases/output/Dealscan_tcst_cpst Tables/*
+!Databases/output/Dealscan_tcst_cpst Tables/Borrowers_linkingtable_matches.xlsx
+!Databases/output/Dealscan_tcst_cpst Tables/Identifiers - Final.dta
+!Databases/output/Dealscan_tcst_cpst Tables/Identifiers - Final.xlsx
+!Databases/output/Dealscan_tcst_cpst Tables/output_ds(new)/
+Databases/output/Dealscan_tcst_cpst Tables/output_ds(new)/*
+!Databases/output/Dealscan_tcst_cpst Tables/output_ds(new)/temp/
+Databases/output/Dealscan_tcst_cpst Tables/output_ds(new)/temp/*
+!Databases/output/Dealscan_tcst_cpst Tables/output_ds(new)/temp/ds_lender_link_schwert_compustat_bankscope_1.dta
+!Databases/output/Dealscan_tcst_cpst Tables/output_ds(new)/temp/matches_chava_new.dta
+!Databases/output/Dealscan_tcst_cpst Tables/output_ds(new)/temp/matches_schwert.dta

@@ -2,7 +2,7 @@
 
 This repository presents the matching component of a research-data workflow linking DealScan, Trucost, Compustat, and Capital IQ identifiers. The public version is intentionally narrow: it focuses on the authored Stata scripts from the `trucost_dealscan_cp_matching` workflow that best showcase identifier reconciliation, entity matching, and merge design.
 
-This repository excludes proprietary datasets, generated outputs, notes, emails, and supporting literature.
+This repository excludes licensed raw vendor datasets, notes, emails, and supporting literature. It now includes a small set of safe linking tables and selected final matching outputs so the workflow is easier to inspect and reuse.
 
 ## What This Repo Shows
 
@@ -24,6 +24,8 @@ More detail is in [docs/provenance.md](/C:/Users/emili/Dropbox/IESE/Carbon%20Emi
 
 - `stata/`: curated Stata scripts from the matching workflow.
 - `docs/`: workflow, provenance, and contribution notes.
+- `Databases/`: selected safe input linking tables and derived matching outputs.
+- `templates/`: mock inputs and review-file templates with safe placeholder data.
 
 ## Included Scripts
 
@@ -33,11 +35,22 @@ More detail is in [docs/provenance.md](/C:/Users/emili/Dropbox/IESE/Carbon%20Emi
 - `04_capital_iq_matching.do`
 - `05_merge_new_old_ds.do`
 
+## Included Safe Data
+
+To make the repo more useful, it includes:
+
+- public or shareable linking tables such as the Chava-Roberts, Schwert, and Jan Keil inputs,
+- the authored `dealscan_worldscope_linking_table.dta` used in the borrower-side matching scripts,
+- and selected final outputs such as `Identifiers - Final` and the lender-side Schwert match outputs.
+
+That means readers can inspect real matching artifacts instead of only mock schemas, even though the licensed raw vendor inputs are still excluded.
+
 ## Important Limitations
 
-- The scripts still use hard-coded local paths from the original research environment.
-- Several steps depend on proprietary vendor data and manually enriched Excel files.
+- The scripts assume the original `Databases/input` and `Databases/output` folder structure is available locally.
+- The repo includes selected safe linking tables and matching outputs, but it still excludes licensed DealScan and Trucost raw data.
+- Some steps also depend on translation tables and review files that were created during manual matching work.
 - Some matching decisions reflect collaboration context and inherited input tables even when the implementation in this repo is authored work.
 - This is a workflow and code sample, not a fully reproducible replication package.
 
-More detail is in [docs/workflow.md](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/docs/workflow.md).
+More detail is in [docs/workflow.md](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/docs/workflow.md), [docs/data-requirements.md](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/docs/data-requirements.md), [docs/public-data.md](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/docs/public-data.md), and [docs/manual-review.md](/C:/Users/emili/Dropbox/IESE/Carbon%20Emissions%20Bank%20Lending/Carbon%20Emissions%20Bank%20Lending%20-%20github/docs/manual-review.md).

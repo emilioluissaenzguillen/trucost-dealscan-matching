@@ -79,7 +79,9 @@ Those manual components are part of what makes this workflow representative of r
 
 This public repo does not include:
 
-- proprietary vendor inputs,
+- licensed raw vendor inputs,
 - ownership-construction scripts from the wider project,
-- generated `.dta` and spreadsheet outputs,
+- most generated intermediate `.dta` and spreadsheet outputs,
 - archival or duplicate historical versions of the matching pipeline.
+
+It does include a small set of safe linking tables and final matching outputs under `Databases/` so the matching logic is easier to inspect.

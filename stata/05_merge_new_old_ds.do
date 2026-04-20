@@ -7,7 +7,15 @@
 
 clear all
 set more off
-global main "C:/Users/addj700/Dropbox/Carbon Emissions Bank Lending/Databases"
+local __pwd = subinstr(`"`c(pwd)'"', "\", "/", .)
+capture confirm global cebl_root
+if _rc {
+	global cebl_root `"`__pwd'"'
+}
+if length("$cebl_root")>=6 & substr("$cebl_root", length("$cebl_root")-5, 6)=="/stata" {
+	global cebl_root = substr("$cebl_root", 1, length("$cebl_root")-6)
+}
+global main "$cebl_root/Databases"
 global output "$main/output/Dealscan_tcst_cpst Tables"
 global input "$main/input"
 

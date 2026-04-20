@@ -1,0 +1,3 @@
+companyID,cleaned_matched_name,isin,gvkey,review_note
+100104,SUNRIDGE ENERGY,US00MOCK0004,100004,fill missing ISIN and confirm issuer
+100105,MERIDIAN LOGISTICS,GB00MOCK0005,100005,manual supplement for missing identifiers

@@ -1,0 +1,3 @@
+companyID,company,cleaned_matched_name,cusip,sedol,isin,gvkey,iq_company_name,review_note
+100101,Northshore Metals plc,NORTHSHORE METALS,000000001,B000001,GB00MOCK0001,GV_100001,Northshore Metals plc,confirmed original ISIN
+100102,Atlas Retail Group,ATLAS RETAIL GROUP,000000002,B000002,US00MOCK0002,GV_100002,Atlas Retail Group,resolved double-GVKEY case
